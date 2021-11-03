@@ -45,7 +45,103 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  /* margin-top: 70%; */
 
-  /* position: absolute; */
 }
+
+/* DESTINATION STYLING STARTS */
+.body-destination {
+  background-image: url("../destination/background-destination-desktop.jpg");
+  background-size: cover;
+}
+/* Global styles for destination page starts*/
+
+.destination-links ul {
+  font-family: "Barlow Condensed", sans-serif;
+  list-style: none;
+  display: flex;
+  text-align: left;
+}
+.destination-links ul li {
+  margin-right: 1.8rem;
+}
+
+.destination-links ul li a {
+  color: #9296ac;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-bottom: 0.5rem;
+}
+.destination-links ul li a:active {
+  color: #fff;
+  border-bottom: solid 2px #fff;
+}
+.destination-links ul li a:hover {
+  color: #fff;
+}
+.destination-links p {
+  font-size: 16px;
+  color: #9296ac;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+.destination-links hr {
+  height: 1px;
+  color: #fff;
+}
+
+/* Global styles for destination page ends*/
+
+
+/* distance and time details styling */
+
+.travel-details {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+.travel-time {
+  display: block;
+}
+.travel-details h1 {
+  color: #9296ac;
+  font-size: 15px;
+}
+.travel-num {
+  color: #fff;
+  font-size: 28px;
+  font-family: "Bellefair", serif;
+}
+
+/* distance and time details styling */
+
+/* MOON SECTION STARTS */
+
+.moon-h4 {
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 6px;
+}
+.moon-h4 span {
+  color: #9296ac;
+}
+.moon-h1 {
+  font-size: 90px;
+  font-family: "Bellefair", serif;
+}
+.destination-links h4 {
+  margin-left: 5rem;
+}
+.moon-png {
+  margin-left: 4rem;
+}
+
+
+
+/* MOON SECTION ENDS */
+
+/* DESTINATION STYLING ENDS */
