@@ -1,9 +1,10 @@
+
+/* HOME BODY PAGE STARTS */
+
 .body-home {
   background-image: url("../home/background-home-desktop.jpg");
   background-size: cover;
 }
-
-/* HOME BODY SECTION STARTS */
 .home-container {
   margin-top: 10rem;
 }
@@ -45,10 +46,11 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-
 }
 
-/* DESTINATION STYLING STARTS */
+/* HOME BODY PAGE ENDS */
+
+/* DESTINATION PAGE STYLING STARTS */
 .body-destination {
   background-image: url("../destination/background-destination-desktop.jpg");
   background-size: cover;
@@ -93,7 +95,6 @@
 
 /* Global styles for destination page ends*/
 
-
 /* distance and time details styling */
 
 .travel-details {
@@ -114,15 +115,15 @@
   font-family: "Bellefair", serif;
 }
 
-/* distance and time details styling */
+/* distance and time details styling ends */
 
-/* MOON SECTION STARTS */
+/* MOON PAGE STYLING STARTS (tab) */
 
 .moon-h4 {
   font-family: "Barlow Condensed", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 25px;
   letter-spacing: 6px;
 }
@@ -140,8 +141,57 @@
   margin-left: 4rem;
 }
 
-
-
-/* MOON SECTION ENDS */
-
+/* MOON PAGE STYLING ENDS (tab) */
 /* DESTINATION STYLING ENDS */
+
+/* CREW PAGE STYLING STARTS */
+.body-crew {
+  background-image: url("/starter-code/assets/crew/background-crew-desktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.crew-h4 {
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+  font-size: 25px;
+  letter-spacing: 6px;
+  margin-bottom: 6rem;
+}
+.crew-h4 span {
+  color: #9296ac;
+  font-weight: bold;
+}
+
+.crew-commander {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #9296ac;
+  font-family: "Bellefair", serif;
+}
+.crew-commander-douglas{
+  font-size: 50px;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Bellefair", serif;
+
+}
+.crew-commander-douglas-description{
+  font-family: "Barlow Condensed", sans-serif;
+  color: #9296ac;
+  line-height: 1.7rem;
+  font-size: 23px;
+   font-weight: 500;
+}
+
+/* CREW PAGE STYLING ENDS */
+
+/* TECH PAGE STYLING STARTS */
+.body-tech{
+  background-image: url('/starter-code/assets/technology/background-technology-desktop.jpg');
+  background-size: cover;
+}
+/* TECH PAGE STYLING ENDS */
